@@ -1,0 +1,19 @@
+img {
+    width: 520px;
+    display: flex;
+   }
+   body{
+    font-size: 45px;
+    color:rgb(25, 24, 24);
+    text-shadow: black 1px 1px 1px;
+   }
+  .copy{
+    background-color: rgb(222, 233, 14);
+    color:#01040c;
+    border-radius: 20px;
+    transform: scale(200%);
+    margin:30px;
+  }
+  #thong-bao{
+    display: none;
+  }

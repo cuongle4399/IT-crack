@@ -19,5 +19,5 @@
       thongBao.style.display = "block";
       setTimeout(function() {
         thongBao.style.display = "none";
-      }, 1000);
+      }, 500);
      }
