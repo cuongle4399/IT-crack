@@ -1,6 +1,10 @@
 img {
-    width: 520px;
+    width: 1280px;
     display: flex;
+    transform: scale(100%);
+    width:70%;
+    position: relative;
+    left:15%;
    }
    body{
     font-size: 45px;
