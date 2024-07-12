@@ -1,0 +1,98 @@
+.menu-btn {
+    display: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 35px;
+    border-radius: 15px;
+    position: fixed;
+    top:0;
+    left:0;
+    transition: background-color 5s ease;
+  }
+  /*dien thoai*/
+  @media (max-width: 787px) {
+    header {
+      background-color: white;
+    }
+  
+    header h1 {
+      font-size: 20px;
+    }
+  
+    nav li:not(:last-child) {
+      display: none;
+    }
+  
+    .show-menu li {
+      display: block;
+      margin-bottom: 10px;
+    }
+    /*dropdown menu*/
+    .menu-btn {
+      position: relative;
+      display: inline-block;
+      display:block;
+      padding:18px;
+      position: fixed;
+      top:0.5%;
+    }
+
+    .dropdown-menu {
+      display: none;
+      position: absolute;
+      background-color: dimgray;
+      min-width: 160px;
+      z-index: 1;
+    }
+
+    .dropdown-menu a {
+      color:rgb(227, 228, 235);
+      display: block;
+    }
+    .menu-btn button {
+      cursor: pointer;
+      background:linear-gradient(to right, #4568DC, #B06AB3);
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 30px;
+      position: relative;
+      top: -35px;
+      left: -10%;
+      transition: all 0.4s linear;
+      border-width: 5px;
+      border-style: solid;
+      overflow: hidden;
+    }
+    
+    .menu-btn button:hover {
+      font-size: 22px;
+      background-position: center;
+      background-size: cover;
+    }
+    
+    .menu-btn button:hover:before {
+      transform: translateX(0);
+    } 
+
+    .menu-btn.active .dropdown-menu {
+      display: block;
+    }
+  }
+  img {
+    width: 520px;
+   }
+   body{
+    font-size: 45px;
+    color:rgb(25, 24, 24);
+    text-shadow: black 1px 1px 1px;
+   }
+  .copy{
+    background-color: rgb(222, 233, 14);
+    color:#01040c;
+    border-radius: 20px;
+    transform: scale(200%);
+    margin:30px;
+  }
