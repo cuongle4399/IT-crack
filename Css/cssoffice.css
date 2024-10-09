@@ -21,3 +21,13 @@ img {
   #thong-bao{
     display: none;
   }
+@media (max-width: 720px){
+  body{
+    font-size: 15px;
+    color:rgb(25, 24, 24);
+    text-shadow: black 0.1px 0.1px 0.1px;
+  }
+  .copy {
+    transform: scale(100%);
+  }
+}
